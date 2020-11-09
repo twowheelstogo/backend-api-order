@@ -1,0 +1,25 @@
+{
+  "name": "backend-api-order",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "awilix": "^4.2.7",
+    "axios": "^0.21.0",
+    "configs-twtg": "github:twowheelstogo/backend-configs-twtg#master",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "firebase-admin": "^9.3.0",
+    "helmet": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "middlewares-twtg": "github:twowheelstogo/backend-middlewares-twtg#master",
+    "object-mapper": "^6.2.0",
+    "swagger-ui-express": "^4.1.4"
+  }
+}
