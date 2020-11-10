@@ -5,6 +5,7 @@ class CompanyRepository {
 
     async getCompany(req, res, next){
         try {
+            console.log(req.body);
             let result = await this.adminfb.firestore().collection('companies').doc(req.body.company).get();
             result = await result.data();
             req.body.company={
