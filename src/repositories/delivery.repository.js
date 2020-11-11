@@ -31,6 +31,8 @@ class DeliveryRepository {
             time:0,
             calculated:false
         }
+        entity.stateTime = {};
+        entity.stateTime["Pendiente"] = now;
         return await db.collection('deliveries').add(entity);
     }
 
